@@ -7,3 +7,10 @@
 .fundoperfil{
     background-image: url(../img/fundoperfil2.jpg);
 }
+.margem{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.txtdecoration{
+    text-decoration: none;
+}
