@@ -25,6 +25,9 @@ footer ul li {
     margin: 10px 0 10px 0;
 
 }
+footer ul{
+    padding: 0;
+}
 
 .alinharmeio {
     display: flex;
