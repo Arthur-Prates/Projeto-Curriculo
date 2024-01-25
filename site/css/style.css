@@ -1,9 +1,27 @@
-.fp{
+.fp {
     width: 250px;
-    height: 240px;
-
+    height: 250px;
 }
 
-.fundoperfil{
+.readme {
+    background-color: #161B22;
+}
+
+.fundoperfil {
     background-image: url(../img/fundoperfil2.jpg);
+    border-radius: 20px;
+}
+
+.bio {
+
+    padding: 20px;
+}
+
+.bio p {
+    text-align: justify;
+}
+
+.dados {
+    background-color: #132133;
+    color: #fff;
 }
