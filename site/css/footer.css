@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.corFooter {
+    cursor: default;
+    background-color: #181919;
+    color: #aab2bd;
+}
+
+.corFooter:hover {
+    background-color: #181919;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+footer ul li {
+    cursor: pointer !important;
+    text-decoration: none;
+    list-style: none;
+    margin: 10px 0 10px 0;
+
+}
+
+.alinharmeio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgGithubFooter {
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: #181919;
+    padding: 4px;
+
+}
+
+.imgGithubFooter:hover {
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: #9708FF;
+    padding: 4px;
+    scale: 1.1;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.corfixa {
+    color: #aab2bd;
+
+}
+
+.meio {
+    margin-bottom: -50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
