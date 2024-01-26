@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-}
+
 
 .corFooter {
     cursor: default;
@@ -12,6 +8,9 @@ body {
     color: #aab2bd;
 }
 
+.cursorDf{
+    cursor:default
+}
 .corFooter:hover {
     background-color: #181919;
     color: #fff;
@@ -25,7 +24,8 @@ footer ul li {
     margin: 10px 0 10px 0;
 
 }
-footer ul{
+
+footer ul {
     padding: 0;
 }
 
@@ -35,31 +35,113 @@ footer ul{
     align-items: center;
 }
 
-.imgGithubFooter {
-    cursor: pointer;
-    border-radius: 100%;
-    background-color: #181919;
-    padding: 4px;
-
-}
-
-.imgGithubFooter:hover {
-    cursor: pointer;
-    border-radius: 100%;
-    background-color: #9708FF;
-    padding: 4px;
-    scale: 1.1;
-    transition: all 0.2s ease-in-out;
-
-}
 
 .corfixa {
     color: #aab2bd;
+    
+}
+
+.meiofooter{
+    margin-bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    -ms-transition: 0.2s;
+    box-shadow: #8d8d8d 0 0 10px;
+}
+.meioicon{
+    margin-bottom: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    -ms-transition: 0.2s;
+    box-shadow: #000000 0 0 10px;
+}
+.imgGithub span {
+    cursor: pointer;
+    font-size: 50px;
+    color: #181919;
+    padding: 4px;
 
 }
 
-.meio {
-    margin-bottom: -50px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.imgGithub span:hover {
+    cursor: pointer;
+    color: #9708FF;
+    text-shadow: #000000 0 0 10px;
+    padding: 4px;
+    scale: 1.2;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    -ms-transition: 0.2s;
+}
+.imgGithubFooter span {
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 50px;
+    padding: 4px;
+
+}
+
+.imgGithubFooter span:hover {
+    cursor: pointer;
+    color: #9708FF;
+    text-shadow: #000000 0 0 10px;
+    padding: 4px;
+    scale: 1.2;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+   
+    -ms-transition: 0.2s;
+}
+
+.imgInsta span {
+    cursor: pointer;
+    font-size: 50px;
+    color: #181919;
+    padding: 4px;
+
+}
+
+.imgInsta span:hover {
+    cursor: pointer;
+    color: #FF156E;
+    text-shadow: #000000 0 0 5px;
+    padding: 4px;
+    scale: 1.2;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    -ms-transition: 0.2s;
+}
+.imgLinkedIn span {
+    cursor: pointer;
+    font-size: 50px;
+    color: #181919;
+    padding: 4px;
+
+}
+
+.imgLinkedIn span:hover {
+    cursor: pointer;
+    color: #0e76a8;
+    text-shadow: #000000 0 0 5px;
+    padding: 4px;
+    scale: 1.2;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    -ms-transition: 0.2s;
 }

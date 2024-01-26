@@ -1,39 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&family=Roboto:wght@300;400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0e0e0f;
+}
+
 .fp {
     width: 250px;
     height: 250px;
 }
+
 .readme {
     background-color: #161B22;
 }
+
 .fundoperfil {
     background-image: url(../img/fundoperfil2.jpg);
     border-radius: 20px;
-}
-.bio {
 
+    background-repeat: round;
+}
+
+.bgbrabo {
+    background-image: url(../img/ceu.jpg);
+    min-height: 50vh !important;
+    background-repeat: round;
+}
+
+.bio {
+    background: transparent;
     padding: 20px;
 }
+
+.p-20 {
+    padding: 20px;
+    border-radius: 10px;
+}
+
 .bio p {
     text-align: justify;
 }
+
 .dados {
     background-color: #132133;
     color: #fff;
+    border: none !important;
 }
-.txtdecoration{
+
+.txtdecoration {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-.margemt{
+
+.margemt {
     margin-top: 5%;
     margin-bottom: 10%;
 }
-.mtTxtBanner{
+
+.mtTxtBanner {
     margin-top: 150px;
+
 }
-.corBanner{
+
+.corBanner {
     background-color: rgb(20, 10, 21);
 }
-.mt-7{
+
+.mt-7 {
     margin-top: 100px;
+}
+.jsbanner{
+    filter:drop-shadow(#f7de1e71 25px -10px 2px );
 }

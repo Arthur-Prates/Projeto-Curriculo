@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css/footer.css">
 </head>
 
-<body style="background: linear-gradient(270deg,rgb(35, 16, 37),rgb(12, 19, 49));">
+<body>
     <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
@@ -36,12 +36,12 @@
         </div>
     </nav>
     <div class="corBanner">
-        <div class="row">
+        <div class="row bgbrabo">
             <div class="col-lg-6 col-md-12 text-center">
                 <p class="fs-2 mtTxtBanner text-white">SkyLab, onde seu site está nas alturas</p>
             </div>
-            <div class="col-lg-6 col-md-12 text-center">
-                <img src="./img/fotoJS.jpg" alt="" width="500px" class="img-fluid">
+            <div class="col-lg-6 col-md-12 text-center alinharmeio">
+                <img src="./img/js.png" alt="" width="500px" class="img-fluid w-25 jsbanner">
             </div>      
         </div>
     </div>
@@ -62,9 +62,9 @@
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mt-1">
-                <a href="curriculo.html" class="txtdecoration">
+                <a href="curriculo-arthur.html" class="txtdecoration">
                     <div class="rounded-circle">
-                        <img src="./img/imgquadrada.webp" alt="" class="rounded-circle w-100">
+                        <img src="./img/pessoas/arthur_400x400.jpg" alt="" class="rounded-circle w-100">
                     </div>
                     <div class="text-center mt-3">
                         Arthur
@@ -107,22 +107,22 @@
 </div>
 
     <div class="container-fluid">
-        <footer class="p-5 corFooter ">
+        <footer class="p-5 corFooter mt-5">
             <div class="row text-center text-white p-5">
-
+    
                 <div class="col-lg-6 col-md-12 col-sm-12 corFooter mb-4">
                     <h1 class="mb-4 alinharmeio corFooter">Entre em contato conosco:</h1>
                     <h6 class="alinharmeio corFooter">projetocurriculoemgrupo@gmail.com</h6>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 corfixa ">
+                <div class="col-lg-6 col-md-12 col-sm-12 corfixa  ">
                     <div class="mb-1 text-center " style="position: relative;">
                         <p>Acesse nosso Respositório:</p>
-                        <a href="https://github.com/Arthur-Prates/Projeto-Curriculo.git">
-                            <img id="githubFooter" src="./img/githubpequeno.png" alt=""
-                                class="img-fluid imgGithubFooter text-center" width="50px">
-                            <p id="t"
-                                style='display:none;position: absolute; border-radius: 5px; background-color: #9708FF; padding: 2px; bottom:1px;'
-                                class="mt-1 text-white meio">Arthur-Prates/Projeto-Curriculo</p>
+                        <a  class="alinharmeio" href="https://github.com/Arthur-Prates/Projeto-Curriculo.git">
+                            <p id="githubFooter" class="img-fluid imgGithubFooter text-center alinharmeio">
+                                <span class="mdi mdi-github"></span>
+                                <p id="t"
+                                    style='display:none;position: absolute; border-radius: 5px; background-color: #9708FF; padding: 2px; bottom:1px;'
+                                    class="mt-1 text-white meiofooter">Arthur-Prates/Projeto-Curriculo</p>
                         </a>
                     </div>
                 </div>
@@ -131,7 +131,7 @@
                         NOSSA LOGO
                         <p class="alinharmeio corFooter">Com 10 anos no mercado !</p>
                     </div>
-
+    
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12  ">
                     <div class="row">
@@ -140,7 +140,7 @@
                                 <li class="alinharmeio corFooter">Contate-nos</li>
                                 <li class="alinharmeio corFooter">Empresas Parceiras</li>
                             </ul>
-
+    
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 ">
                             <ul>
@@ -149,14 +149,14 @@
                                 <li class="alinharmeio corFooter">Política de Cookies</li>
                             </ul>
                         </div>
-
+    
                     </div>
                 </div>
             </div>
         </footer>
     </div>
 
-
+    <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
@@ -165,25 +165,6 @@
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
 </body>
-<script>
-    gith = document.getElementById('t')
-    gith = document.getElementById('githubFooter')
-    gith.addEventListener('mouseover', function () {
-        t.style.display = "flex";
-        t.style.transition = "all 0.1s ease-in-out";
-    })
-    gith.addEventListener('mouseout', function () {
-        t.style.display = "none";
-        t.style.transition = "all 0.1s ease-in-out";
-    })
-    t.addEventListener('mouseover', function () {
-        t.style.display = "flex";
-        t.style.transition = "all 0.1s ease-in-out";
-    })
-    t.addEventListener('mouseout', function () {
-        t.style.display = "none";
-        t.style.transition = "all 0.1s ease-in-out";
-    })
-</script>
+
 
 </html>
