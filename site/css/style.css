@@ -5,6 +5,34 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #0e0e0f;
+
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    flex-grow: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: space-around;
+    justify-content: space-around;
+}
+
+.roxo {
+    color: #6417a5 !important;
 }
 
 .fp {
@@ -59,18 +87,18 @@ body {
     margin-bottom: 10%;
 }
 
-.mtTxtBanner {
-    margin-top: 150px;
 
-}
 
 .corBanner {
-    background-color: rgb(20, 10, 21);
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+   
 }
 
 .mt-7 {
     margin-top: 100px;
 }
-.jsbanner{
-    filter:drop-shadow(#f7de1e71 25px -10px 2px );
+
+.jsbanner {
+    filter: drop-shadow(#f7de1e71 25px -10px 2px);
 }

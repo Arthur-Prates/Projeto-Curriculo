@@ -42,7 +42,7 @@ footer ul {
 }
 
 .meiofooter{
-    margin-bottom: -20px;
+    margin-bottom: -40px;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: all 0.2s ease-in-out;
