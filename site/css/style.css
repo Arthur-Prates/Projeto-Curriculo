@@ -22,8 +22,18 @@
 }
 .txtdecoration{
     text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 .margemt{
-    margin-top: 12%;
-    margin-bottom: 15%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.mtTxtBanner{
+    margin-top: 150px;
+}
+.corBanner{
+    background-color: rgb(20, 10, 21);
+}
+.mt-7{
+    margin-top: 100px;
 }
