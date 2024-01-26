@@ -52,7 +52,7 @@ body {
 }
 
 .bgbrabo {
-    background-image: url(../img/ceu.jpg);
+    background-image: url(../img/bannerCustom.png);
     min-height: 50vh !important;
     background-repeat: round;
 }
