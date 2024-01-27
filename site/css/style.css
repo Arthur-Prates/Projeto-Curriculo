@@ -102,3 +102,7 @@ body {
 .jsbanner {
     filter: drop-shadow(#f7de1e71 25px -10px 2px);
 }
+
+.bggradient{
+    background: linear-gradient(to top, #181919 ,black );
+}
