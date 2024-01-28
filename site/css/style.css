@@ -16,7 +16,9 @@ body {
     align-items: space-around;
 }
 
-
+.dropdown-item:hover {
+    background-color: #000000;
+}
 
 .navbar>.container,
 .navbar>.container-fluid,
@@ -29,6 +31,14 @@ body {
     flex-wrap: nowrap;
     align-items: space-around;
     justify-content: space-around;
+}
+
+.navbar-toggler-icon {
+    display: none !important;
+}
+
+.navbar-toggler {
+    display: none !important;
 }
 
 .roxo {
@@ -45,7 +55,7 @@ body {
 }
 
 .fundoperfil {
-    background-image: url(../img/fundoperfil3.jpg);
+    background-image: url(../img/gif/ceu.gif);
     border-radius: 20px;
 
     background-repeat: round;
@@ -61,6 +71,7 @@ body {
     background: transparent;
     padding: 20px;
 }
+
 
 .p-20 {
     padding: 20px;
@@ -92,7 +103,7 @@ body {
 .corBanner {
     background-color: rgb(255, 255, 255);
     min-height: 300px;
-   
+
 }
 
 .mt-7 {
@@ -103,6 +114,6 @@ body {
     filter: drop-shadow(#f7de1e71 25px -10px 2px);
 }
 
-.bggradient{
-    background: linear-gradient(to top, #181919 ,black );
+.bggradient {
+    background: linear-gradient(to top, #181919, black);
 }
