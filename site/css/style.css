@@ -8,17 +8,19 @@ body {
 
 }
 
+.dropdown-item:hover {
+    background-color: #000000;
+}
+
 .navbar .navbar-collapse {
     text-align: center;
     flex-grow: 0;
-    display: flex;
+    
     justify-content: space-around;
     align-items: space-around;
 }
 
-.dropdown-item:hover {
-    background-color: #000000;
-}
+
 
 .navbar>.container,
 .navbar>.container-fluid,
@@ -27,19 +29,13 @@ body {
 .navbar>.container-sm,
 .navbar>.container-xl,
 .navbar>.container-xxl {
-    display: flex;
-    flex-wrap: nowrap;
+    
+    
     align-items: space-around;
     justify-content: space-around;
 }
 
-.navbar-toggler-icon {
-    display: none !important;
-}
 
-.navbar-toggler {
-    display: none !important;
-}
 
 .roxo {
     color: #6417a5 !important;
@@ -102,7 +98,7 @@ body {
 
 .corBanner {
     background-color: rgb(255, 255, 255);
-    min-height: 300px;
+    
 
 }
 
