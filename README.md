@@ -8,7 +8,7 @@ Site desenvolvido para expor portifólios dos nossos programadores (nossa equipe
 
 ## Menu
 - [Descrição](###Descrição)
-- [Objetivo](###Objetivo)
+- [Objetivo](###-Objetivo)
 - [Tecnologias](##🔧-Construído-com)
 - [Github](#Github)
   - [Clone](#back-end)
