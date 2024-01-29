@@ -42,7 +42,7 @@ Git/GitHub, criamos um portifólio sobre nós mesmos. </p></em></b>
   
 </div>
 * O HTML5 se trata de uma tecnologia de linguagem de marcação, usada para delimitar todos os objetos de determinada página.
-* O CSS se trata de uma tecnologia de linguagem de estilização, usada para decorar as marcações em HTML5
+* O CSS se trata de uma tecnologia de linguagem de estilização, usada para decorar as marcações em HTML5.
 * O Bootstrap é um framework com o objetivo de poupar tempo, nos oferecendo recursos de estilização já prontos para o uso em sua página.
 * O Visual Studio Code é um editor de código mais leve e flexível, projetado principalmente para edição de código e desenvolvimento web.
 
@@ -52,12 +52,14 @@ GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle 
 ### Clone
 O comando **git clone** serve para copiar um repositório do Git existente.
 <br/>
+<br/>
 Para ser usado, é necessário escrever o comando da seguinte maneira em seu cmd:
 ```
 git clone <Link do seu repositório>
 ```
 ### Init
 O comando **git init** cria um novo repositório do Git. Ele pode ser usado para converter um projeto existente e não versionado em um repositório do Git ou inicializar um novo repositório vazio.
+<br/>
 <br/>
 Para ser usado, é necessário escrever o comando da seguinte maneira em seu cmd:
 ```
@@ -67,14 +69,33 @@ git init
 ### Add
 
 ### Status
+<p> O comando **git status** exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git. Os resultados de status não exibem qualquer informação sobre o histórico de projetos que recebeu commit.</p>
+<br>
+<br>
+<p>Para usar o comando **git status** apenas digite-o no **Prompt de Comando**:</p>
+```
+git status
+```
 
 ### Commit
 
 ### Push
 
 ### Pull
-
+<p>O comando **git pull** é usado para buscar e baixar conteúdo de repositórios remotos e fazer a atualização imediata ao repositório local para que os conteúdos sejam iguais.</p>
+<br>
+<br>
+<p>Para usar o comando **git pull** digite-o no **Prompt de Comando** seguido do link do seu repositório:</p>
+```
+git pull <repositorio remoto>
+```
 ### Merge
+<p> O merge permite que você pegue as linhas de desenvolvimento independentes criadas pelo git branch e as integre em uma ramificação única.</p>
+  <br>
+  <br>
+<p>Para usar o merge você acessa o repositório remoto no GitHub e verifica as alterações feitas na branch, após isso clique em **merge** e a branch será mesclada a main do projeto.</p>
+
+
 
 ## 📥 Implantação
 O Primeiro passo para acessar o Site, é fazer o download da ferramenta **GIT**:
