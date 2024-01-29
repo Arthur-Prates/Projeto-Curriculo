@@ -41,10 +41,10 @@ Git/GitHub, criamos um portifólio sobre nós mesmos. </p></em></b>
   <a href="https://code.visualstudio.com" target="_blank"><img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" target="_blank"></a> 
   
 </div>
-* O HTML5 se trata de uma tecnologia de linguagem de marcação, usada para delimitar todos os objetos de determinada página.
-* O CSS se trata de uma tecnologia de linguagem de estilização, usada para decorar as marcações em HTML5.
-* O Bootstrap é um framework com o objetivo de poupar tempo, nos oferecendo recursos de estilização já prontos para o uso em sua página.
-* O Visual Studio Code é um editor de código mais leve e flexível, projetado principalmente para edição de código e desenvolvimento web.
+- O HTML5 se trata de uma tecnologia de linguagem de marcação, usada para delimitar todos os objetos de determinada página.<br>
+- O CSS se trata de uma tecnologia de linguagem de estilização, usada para decorar as marcações em HTML5.<br>
+- O Bootstrap é um framework com o objetivo de poupar tempo, nos oferecendo recursos de estilização já prontos para o uso em sua página.<br>
+- O Visual Studio Code é um editor de código mais leve e flexível, projetado principalmente para edição de código e desenvolvimento web.<br>
 
 ## GitHub
 GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
