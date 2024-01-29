@@ -67,6 +67,17 @@ git init
 ```
 
 ### Add
+<p> É o comando de adicionar os arquivos selecionando-os pronto para serem baixados no projeto.</p> 
+<p>Há duas formas de escrever esse codigos, cada forma desempenha uma função diferente: </p>
+```
+git add (nome do arquivo)
+```
+<p> Para adicionar um arquivo em especifico</p>
+```
+git add (nome do arquivo)
+```
+<p>Para adiconar todos os arquivos da pasta</p>
+
 
 ### Status
 <p> O comando **git status** exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git. Os resultados de status não exibem qualquer informação sobre o histórico de projetos que recebeu commit.</p>
@@ -78,8 +89,21 @@ git status
 ```
 
 ### Commit
+<p> É o comando para descrever o que esta sendo modificado, seja uma alteração, uma adição ou uma exclusão de arquivo no projeto.</p>
+```
+git commit -m "o que você quer escrever"
+```
 
 ### Push
+<p> Depois de fazer add e fazer o commit para enfim confirmar as alterações no projeto deve-se usar o comando push:</p>
+<p> Se as alterações estiverem sendo feitas na man, esta é a sintaxe que deve ser usada</p>
+```
+git push
+```
+<p> Caso as alteraçôes no projeto estejam sendo feitas para branch, esta é a sintaxe que deverá ser usada:</p>
+```
+git push --set-upstream origin NoneDaBranch
+```
 
 ### Pull
 <p>O comando **git pull** é usado para buscar e baixar conteúdo de repositórios remotos e fazer a atualização imediata ao repositório local para que os conteúdos sejam iguais.</p>
