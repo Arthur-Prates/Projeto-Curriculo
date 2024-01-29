@@ -1,9 +1,47 @@
 # <p align="center">♣️ Projeto-Curriculo ♣️</p>
 
+
+### Descrição
+<b><em><p align="center"> 
+Site desenvolvido para expor portifólios dos nossos programadores (nossa equipe).
+</p></em></b>
+
+## Menu
+- [Descrição](###Descrição)
+- [Objetivo](###Objetivo)
+- [Tecnologias](##🔧-Construído-com)
+- [Github](#Github)
+  - [Clone](#back-end)
+  - [Init](#Init) 
+  - [Add](#Add) 
+  - [Status](#Status) 
+  - [Commit](#Commit) 
+  - [Push](#Push) 
+  - [Pull](#Pull) 
+  - [Merge](#Merge) 
+- [Implantação](##📥-Implantação)
+- [Possíveis erros](#Possíveis-erros)
+- [Desenvolvimento e Melhorias](#desenvolvimento-e-melhorias)
+- [Autores](#autores)
+
+
+
+
+### Objetivo
 <b><em><p align="center">  Com o objetivo de nos proporcionar uma experiência prática no desenvolvimento de um
 site pessoal simples, utilizando HTML, CSS e
 Git/GitHub, criamos um portifólio sobre nós mesmos. </p></em></b>
 
+## 🔧 Construído com
+
+<div> 
+  <a href="https://github.com" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+  <a target="_blank"><img src="https://img.shields.io/badge/CSS-254BDD?&style=for-the-badge&logo=css3&logoColor=white" target="_blank"></a>
+ 	<a target="_blank"><img src="https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white" target="_blank"></a>
+  <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/" target="_blank"><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" target="_blank"></a> 
+  <a href="https://code.visualstudio.com" target="_blank"><img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" target="_blank"></a> 
+  
+</div>
 
 ## 🕛 Começando
 
@@ -36,16 +74,7 @@ Para acessar o repositório clonado usando o terminal, digite:
 ```
 Pronto, agora divirta-se.
 
-## 🔧 Construído com
 
-<div> 
-  <a href="https://github.com" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
-  <a target="_blank"><img src="https://img.shields.io/badge/CSS-254BDD?&style=for-the-badge&logo=css3&logoColor=white" target="_blank"></a>
- 	<a target="_blank"><img src="https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white" target="_blank"></a>
-  <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/" target="_blank"><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" target="_blank"></a> 
-  <a href="https://code.visualstudio.com" target="_blank"><img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" target="_blank"></a> 
-  
-</div>
 
 ## 👥 Autores
 
