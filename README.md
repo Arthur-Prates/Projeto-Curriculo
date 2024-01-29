@@ -7,9 +7,9 @@ Site desenvolvido para expor portifólios dos nossos programadores (nossa equipe
 </p></em></b>
 
 ## Menu
-- [Descrição](###descrição)
-- [Objetivo](###-objetivo)
-- [Tecnologias](##-construído-com)
+- [Descrição](#descrição)
+- [Objetivo](#-objetivo)
+- [Tecnologias](#-construído-com)
 - [Github](#github)
   - [Clone](#clone)
   - [Init](#init) 
@@ -19,7 +19,7 @@ Site desenvolvido para expor portifólios dos nossos programadores (nossa equipe
   - [Push](#push) 
   - [Pull](#pull) 
   - [Merge](#merge) 
-- [Implantação](##-implantação)
+- [Implantação](#-implantação)
 - [Possíveis erros](#possiveis-erros)
 - [Desenvolvimento e Melhorias](#desenvolvimento-e-melhorias)
 - [Autores](#autores)
