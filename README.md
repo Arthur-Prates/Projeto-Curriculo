@@ -47,10 +47,22 @@ Git/GitHub, criamos um portifólio sobre nós mesmos. </p></em></b>
 * O Visual Studio Code é um editor de código mais leve e flexível, projetado principalmente para edição de código e desenvolvimento web.
 
 ## GitHub
-
+GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
+<br/>
 ### Clone
-
+O comando **git clone** serve para copiar um repositório do Git existente.
+<br/>
+Para ser usado, é necessário escrever o comando da seguinte maneira em seu cmd:
+```
+git clone <Link do seu repositório>
+```
 ### Init
+O comando **git init** cria um novo repositório do Git. Ele pode ser usado para converter um projeto existente e não versionado em um repositório do Git ou inicializar um novo repositório vazio.
+<br/>
+Para ser usado, é necessário escrever o comando da seguinte maneira em seu cmd:
+```
+git init
+```
 
 ### Add
 
